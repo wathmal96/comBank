@@ -1,0 +1,12 @@
+#div{
+    background-color: blue;
+    width: 100px;
+    height: 800px;
+    position: fixed;
+    top: 10px;
+    transition: transform ease-out 5s;
+}
+
+#div:hover{
+    transform: translateX(6);
+}
