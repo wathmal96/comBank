@@ -226,6 +226,46 @@
     transform: scale(0.97);
 }
 
+
+/* divP4 styles */
+
+.divP4{
+    position: relative;
+    visibility: hidden;
+}
+
+.divP4Sub1{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    width: 50vw;
+}
+
+.divP4Sub1Sub2{
+    display: none;
+}
+.divP4Sub1Sub2{}
+
+.divP4Links{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.divP4Buttons{
+    /* background-image: (to right, rgb(17, 17, 16) , rgb(240, 215, 106))! */
+    transition: transform .5s;
+}
+
+.divP4Buttons:hover{
+    transform: scale(0.95);
+}
+
+.divP4Img{
+    padding: 50px;
+    float: right;
+}
+
+
 #div4Sub1{
     display: flex;
     justify-content: center;
